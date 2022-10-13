@@ -5,7 +5,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <h1>Hello bitches!</h1>
+      <h1>Good news, everyone!</h1>
     </>
     
   );
