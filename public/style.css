@@ -4,29 +4,25 @@ body {
 }
 
 .header {
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    align-items: center;
     height: 65px;
-    display: flex;
-    justify-content: space-between;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     color: #FFFFFF;
+    padding: 20px;
 }
 
-.header--left-part {
-    display: flex;
-    margin-left: 20px;
-
-}
-
-.header--logo {
-    height: 31px;
-    margin: auto 10px;
+.header--image {
+    height: 50%;
+    margin-right: 6px;
 }
 
 .header--title {
-    /* margin: auto 0; */
+    font-size: 1.25rem;
+    margin-right: auto; 
 }
 
-.header--right-part {
-    font-family: "Inter", sans-serif;
-    margin: auto 40px;
+.header--project {
+    font-size: 0.75rem;
+    font-weight: 500;
 }    
