@@ -36,14 +36,15 @@ body {
 }
 
 .form--input {
-    font-size: 0.75rem;
+    font-size: 1rem;
     line-height: 14px;
     border-radius: 6px;
     border: 1px solid #D5D4D8;
+    text-indent: 1rem;
 }
 
 .form--button {
-    grid-area: 2 / 1 / 2 / 3;
+    grid-column: 1 / -1;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 1.5rem;
@@ -52,4 +53,6 @@ body {
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     padding: 10px;
     border-radius: 6px;
+    border: none;
+    cursor: pointer;
 }
