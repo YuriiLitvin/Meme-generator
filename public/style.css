@@ -18,7 +18,7 @@ body {
 }
 
 .header--title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-right: auto; 
 }
 
@@ -26,3 +26,30 @@ body {
     font-size: 0.75rem;
     font-weight: 500;
 }    
+
+.form--container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    height: 9.5rem;
+    margin: 2.1rem;
+}
+
+.form--input {
+    font-size: 0.75rem;
+    line-height: 14px;
+    border-radius: 6px;
+    border: 1px solid #D5D4D8;
+}
+
+.form--button {
+    grid-area: 2 / 1 / 2 / 3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 19px;
+    width: 100%;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 10px;
+    border-radius: 6px;
+}
