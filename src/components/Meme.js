@@ -26,7 +26,7 @@ export default function Meme() {
     }
 
     return (
-        <main>
+        <main class="container">
             <div className="form--container">
                 <input 
                     className="form--input" 
@@ -43,10 +43,8 @@ export default function Meme() {
                     >
                     Get a new meme image
                 </button>
-                <div className="meme">
-                    <img src={meme.randomImage} alt="meme image"/>
-                </div>
             </div>
+            <img src={meme.randomImage} className="meme--image"/>
         </main>
     )
 }
