@@ -11,7 +11,7 @@ body {
 .app-container {
     background-color: white;
     margin: 0 10%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .header {
@@ -49,10 +49,24 @@ body {
     height: 9.5rem;
 }
 
+@media only screen and (max-width: 620px) {
+    .form--container {
+        width: 100%;
+    }
+
+    .form--input {
+        width: 100%;
+    }
+
+    .form--button {
+        width: 100%;
+    }
+}
+
 .form--input {
     font-size: 1rem;
-    line-height: 14px;
-    border-radius: 6px;
+    line-height: 0.8rem;
+    border-radius: 0.4rem;
     border: 1px solid #D5D4D8;
     text-indent: 1rem;
 }
@@ -62,10 +76,10 @@ body {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 1.5rem;
-    line-height: 19px;
+    line-height: 1.2rem;
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-    padding: 10px;
-    border-radius: 6px;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
     border: none;
     cursor: pointer;
 }
@@ -75,7 +89,7 @@ body {
 }
 
 .meme--image {
-    margin-top: 2.1rem;
+    margin: 2.1rem 0;
     width: 100%;
     border-radius: 6px;
 }
